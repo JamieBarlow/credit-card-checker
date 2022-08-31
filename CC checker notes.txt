@@ -1,0 +1,8 @@
+stringBatch = [ '4532719662822174',
+  '4539224674390628',
+  '6011639183356871',
+  '6011013540035901' ]
+(array of strings)
+
+stringbatch[i].split('') = a nested array, each internal array has a separate number per string
+
