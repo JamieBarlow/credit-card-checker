@@ -9,7 +9,7 @@ By Jamie Barlow
 
 ## Features
 
-- A creditCardConvert() function to convert a batch (array) of credit cards, entered as strings, to a nested array of credit cards as numbers (instead of strings). This will be required for validation later - the numbers can then be validated using the program's other functions (below). Note: each credit card number is itself an array of numbers, so the batch of credit cards becomes a nested array of arrays. 
+- A creditCardConvert() function to convert a batch (array) of credit cards, entered as strings, to a nested array of credit cards as numbers (instead of strings). This will be required for validation later - the numbers can then be validated using the program's other functions (below). Note for programmers: each credit card number is itself an array of numbers, so the batch of credit cards becomes a nested array of arrays. 
 - A validateCred() function which checks a single credit card's numbers according to the Luhn algorithm. Returns 'true' if valid, 'false' if invalid.
 - A findInvalidCards() function which uses the validateCred() function above, but applies this to a batch (nested array) of credit card numbers. This returns all invalid credit card numbers.
 - An idInvalidCardCompanies() function which takes the invalid cards returned from findInavlidCards() as an input, and returns a list of credit card issuers. The function is set up to create a list without duplicates, even if the same company has issued multiple invalid credit cards.
