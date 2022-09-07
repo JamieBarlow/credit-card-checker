@@ -21,3 +21,7 @@ By Jamie Barlow
 ## Potential Additions
 
 - Implementing a form with inputs for user submission, followed by a display of results.
+
+## License
+
+[GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
